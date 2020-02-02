@@ -1,0 +1,51 @@
+{
+  "name": "smorejs",
+  "version": "2.0.6",
+  "description": "SmoreBot JS is the JavaScript bot written in Discord.js and Node.js it is designed to have music and server prefixes with custom settings per guild! Version 2 is the SmoreJS rewrite with migration onto the Discord.js-Commando framework.",
+  "main": "smore.js",
+  "engines": {
+    "node": "8.x"
+  },
+  "scripts": {
+    "test": "node smore.js",
+    "lint": "eslint .",
+    "start": "node smore.js"
+  },
+  "repository": "SmoreSoftware/SmoreJS",
+  "bugs": {
+    "url": "https://github.com/SmoreSoftware/SmoreJS/issues"
+  },
+  "homepage": "https://github.com/SmoreSoftware/SmoreJS#readme",
+  "license": "AGPL-3.0-or-later",
+  "contributors": [
+    "TJDoesCode#6088",
+    "Jdender~ <jdenderplays@gmail.com> (https://github.com/jdenderplays)",
+    "Jonah Snider <me@jonahsnider.ninja> (jonahsnider.ninja)"
+  ],
+  "dependencies": {
+    "bufferutil": "3.0.2",
+    "chalk": "2.1.0",
+    "common-tags": "1.4.0",
+    "discord.js": "11.2.1",
+    "discord.js-commando": "0.9.0",
+    "dotenv": "5.0.1",
+    "figlet": "1.2.0",
+    "moment": "2.19.3",
+    "moment-duration-format": "1.3.0",
+    "morjs": "1.1.0",
+    "morse-node": "0.1.1",
+    "ms": "2.0.0",
+    "redis": "2.8.0",
+    "regex": "0.1.1",
+    "request": "2.81.0",
+    "sqlite": "2.8.0",
+    "superagent": "3.5.2",
+    "tsubaki": "1.3.1",
+    "twit": "2.2.11",
+    "winston": "2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-aqua": "^4.3.0"
+  }
+}
