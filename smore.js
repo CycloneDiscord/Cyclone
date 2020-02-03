@@ -481,7 +481,7 @@ setInterval(() => {
   fs.unlinkSync('./db.lock');
 }, ms('30s'));
 
-client.login(process.env.NjczNTI4NzczMDIyNTgwNzM2.XjgFeQ.T6dC8nYipbjH8PJ5mtDws2elPlE);
+client.login(process.env.Moae5yrpdSbwsBN00Gp1g_3Z-c0OWd5N);
 
 process.on('unhandledRejection', err => {
   console.error(`Uncaught Promise Error: \n${err.stack}`);
